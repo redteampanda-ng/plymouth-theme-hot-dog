@@ -15,4 +15,4 @@ $ sudo update-alternatives --config default.plymouth # choose the hot-dog theme 
 $ sudo update-initramfs -u
 ```
 
-You can test the look of the theme by running `sudo ./plymout-test.sh`. This will run the theme by 15 seconds before closing it and dropping you back into your Desktop.
+You can test the look of the theme by running `sudo ./plymouth-test.sh`. This will run the theme by 15 seconds before closing it and dropping you back into your Desktop.
