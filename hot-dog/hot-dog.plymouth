@@ -8,9 +8,9 @@ Font=Cantarell 12
 TitleFont=Cantarell Light 30
 ImageDir=/usr/share/plymouth/themes/hot-dog
 DialogHorizontalAlignment=.5
-DialogVerticalAlignment=.382
+DialogVerticalAlignment=.5
 TitleHorizontalAlignment=.5
-TitleVerticalAlignment=.382
+TitleVerticalAlignment=..382
 HorizontalAlignment=.5
 VerticalAlignment=.5
 WatermarkHorizontalAlignment=.5
@@ -21,16 +21,23 @@ BackgroundStartColor=0x000000
 BackgroundEndColor=0x000000
 ProgressBarBackgroundColor=0x606060
 ProgressBarForegroundColor=0xffffff
+DialogClearsFirmwareBackground=true
 MessageBelowAnimation=true
+MessageBelowAnimationDistance=10
+CursorAnimation=breath
+CursorAnimationSpeed=7
 
 [boot-up]
 UseEndAnimation=false
+UseFirmwareBackground=false
 
 [shutdown]
 UseEndAnimation=false
+UseFirmwareBackground=false
 
 [reboot]
 UseEndAnimation=false
+UseFirmwareBackground=false
 
 [updates]
 SuppressMessages=true
