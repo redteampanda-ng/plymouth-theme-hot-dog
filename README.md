@@ -1,0 +1,18 @@
+# plymouth-theme-hot-dog
+
+![hot-dog](hot-dog/progress-05.png)
+
+modified plymouth hot-dog theme, merged with the the spinner theme to look more like the default Ubuntu theme.
+
+## Installation
+
+To install on Ubuntu run the following commands:
+
+``` bash
+$ sudo cp -r hot-dog /usr/share/plymouth/themes/
+$ sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/hot-dog/hot-dog.plymouth 100
+$ sudo update-alternatives --config default.plymouth # choose the hot-dog theme with the number
+$ sudo update-initramfs -u
+```
+
+You can test the look of the theme by running `sudo ./plymout-test.sh`. This will run the theme by 15 seconds before closing it and dropping you back into your Desktop.
