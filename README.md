@@ -1,6 +1,6 @@
 # plymouth-theme-hot-dog
 
-![hot-dog](hot-dog/progress-05.png)
+![hot-dog](hot-dog.gif)
 
 modified plymouth hot-dog theme, merged with the the spinner theme to look more like the default Ubuntu theme.
 
