@@ -4,13 +4,13 @@ Description=A theme that features the Happy Hot Dog. The mustard indicates progr
 ModuleName=two-step
 
 [two-step]
-Font=Cantarell 12
-TitleFont=Cantarell Light 30
+Font=Ubuntu 12
+TitleFont=Ubuntu Light 30
 ImageDir=/usr/share/plymouth/themes/hot-dog
 DialogHorizontalAlignment=.5
 DialogVerticalAlignment=.5
 TitleHorizontalAlignment=.5
-TitleVerticalAlignment=..382
+TitleVerticalAlignment=.382
 HorizontalAlignment=.5
 VerticalAlignment=.5
 WatermarkHorizontalAlignment=.5
