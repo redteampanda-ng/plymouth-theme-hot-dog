@@ -2,7 +2,7 @@
 
 ![hot-dog](hot-dog.gif)
 
-modified plymouth hot-dog theme, merged with the the spinner theme to look more like the default Ubuntu theme.
+modified plymouth hot-dog theme, merged with the spinner theme to look more like the default Ubuntu theme.
 
 ## Installation
 
@@ -15,4 +15,4 @@ $ sudo update-alternatives --config default.plymouth # choose the hot-dog theme 
 $ sudo update-initramfs -u
 ```
 
-You can test the look of the theme by running `sudo ./plymouth-test.sh`. This will run the theme by 15 seconds before closing it and dropping you back into your Desktop.
+You can test the look of the theme by running `sudo ./plymouth-test.sh`. This will run the theme for 20 seconds before closing it and dropping you back into your Desktop.
